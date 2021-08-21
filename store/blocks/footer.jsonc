@@ -1,18 +1,28 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop", 
+      "footer-layout.mobile"
+    ]
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#rodape"
     ]
   },
   "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footermobile"
     ]
   },
-  "flex-layout.row#footer": { 
+  
+  
+  "flex-layout.row#rodape":{
+    "props":{
+      "blockClass":"rodape",
+      "fullWidth": true,
+      "paddingTop": 3
+    },
     "children": [
       "image"
     ]
@@ -20,7 +30,120 @@
   "image": {
     "props": {
       "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "src": "assets/logo.png"
+    }
+  },
+
+  "flex-layout.row#footermobile": { 
+    "props": {
+      "blockClass": "footer-mobile",
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "top",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "colSizing": "equal"
+    },
+    "children": [
+      "flex-layout.col#entrarmobile",
+      "flex-layout.col#desafiosmobile",
+      "flex-layout.col#lojamobile",
+      "flex-layout.col#suportemobile"
+    ]
+  },
+  "flex-layout.col#entrarmobile":{
+    "props":{
+      "horizontalAlign": "center"
+    },
+    "children":[
+        "image#login2",
+        "rich-text#login2"
+    ]
+  },
+  "image#login2": {
+    "props": {
+      "width": 20,
+      "src": "assets/login.png",
+      "link": "/"
+    }
+  },
+  "rich-text#login2": {
+    "props": {
+      "text": "ENTRAR",
+      "textPosition": "CENTER",
+      "font": "mini"
+    }
+  },
+  "flex-layout.col#desafiosmobile":{
+    "props":{
+      "horizontalAlign": "center"
+    },
+    "children":[
+        "image#desafios2",
+        "rich-text#desafios2"
+    ]
+  },
+  "image#desafios2": {
+    "props": {
+      "width": 20,
+      "src": "assets/desafio.png",
+      "link": "/"
+    }
+  },
+  "rich-text#desafios2": {
+    "props": {
+      "text": "DESAFIOS",
+      "textPosition": "CENTER",
+      "font": "mini"
+    }
+  },
+  "flex-layout.col#lojamobile":{
+    "props":{
+      "horizontalAlign": "center"
+    },
+    "children":[
+        "image#loja2",
+        "rich-text#loja2"
+    ]
+  },
+  "image#loja2": {
+    "props": {
+      "width": 20,
+      "src": "assets/carrinho.png",
+      "link": "/"
+    }
+  },
+  "rich-text#loja2": {
+    "props": {
+      "text": "LOJA",
+      "textPosition": "CENTER",
+      "font": "mini"
+    }
+  },
+  "flex-layout.col#suportemobile":{
+    "props":{
+      "horizontalAlign": "center"
+    },
+    "children":[
+        "image#suporte2",
+        "rich-text#suporte2"
+    ]
+  },
+  "image#suporte2": {
+    "props": {
+      "width": 20,
+      "src": "assets/contato.png",
+      "link": {
+        "url": "https://api.whatsapp.com/send?phone=5511953527428&text=HiringCoders2021"
+      }
+    }
+  },
+  "rich-text#suporte2": {
+    "props": {
+      "text": "SUPORTE",
+      "textPosition": "CENTER",
+      "font": "mini"
     }
   }
 }

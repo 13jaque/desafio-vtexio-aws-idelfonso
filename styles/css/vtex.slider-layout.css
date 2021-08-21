@@ -1,0 +1,50 @@
+  .imageElement--slider-carouselbanner{
+    border-radius: 1rem;
+  }
+  
+  .sliderLayoutContainer--carouselbanner {
+    background-color: #303030;
+  }
+
+  .flexRow {
+    background-color: #303030;
+  }
+
+  .slideChildrenContainer--carouselbanner {
+    width: -5%;
+    width: auto;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 40px;
+    width: 1000px;
+    justify-content: center;
+    margin-left: 15%;
+    left: -20px;
+  }
+
+  .sliderTrackContainer--carouselbanner {
+    align-items: flex-end;
+    border-radius: 20px;
+    margin-top: 15px;
+    background-color: #303030;
+  }
+
+  .paginationDotsContainer--slider-carouselbanner{
+    padding-bottom: 10px;
+}
+
+  .caretIcon{
+    color: white;
+  }
+
+  .sliderLayoutContainer--shelf {
+    background-color: #303030;
+  }
+
+  .paginationDot--isActive {
+    background-color: #59ff00;
+}
+  
+
+ 

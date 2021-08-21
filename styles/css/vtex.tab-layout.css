@@ -1,0 +1,39 @@
+  .container {
+    background: #212121;
+}
+
+  .container :global(.vtex-button__label) {
+    color: white;    
+}
+
+  .container :global(.vtex-button) {
+    border: none;
+    border-radius: 0;
+    border-bottom: thin solid #212121;
+}
+
+  .container :global(.vtex-tab-layout-0-x-listItemActive) {
+    border-bottom: thin solid #59ff00;
+}
+
+  .container :global(.vtex-tab-layout-0-x-listItem) {
+    background-color: #212121;
+}
+
+  .listItemActive :global(.vtex-button){
+    background-color: #212121;
+}
+
+  .wrapper--texto1 {
+    position: absolute;
+    margin-top: 500px;
+}
+
+   .container--texto1 {
+    background-color: #303030
+}
+
+  .paragraph--texto1 {
+    font-size: 20px;
+    margin-top: 35px;
+}

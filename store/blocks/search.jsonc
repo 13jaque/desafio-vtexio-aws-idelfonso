@@ -1,42 +1,49 @@
 {
-  "store.search": {
-    "props": {
-      "context": {
-      "skusFilter": "FIRST_AVAILABLE",//retorna apenas o primeiro SKU
-      "simulationBehavior": "skip" //fazer com que o preço que seja utiliza seja um preço padrão, pulando a simulação pois a simulação pode esta simulando a localização
+    "store.search": {
+      "blocks": ["search-result-layout"],
+      "props": {
+          "querySchema": {
+              "skusFilter": "FIRST_AVAILABLE",
+              "simulationBehavior": "skip",
+              "queryField": "UpMedal",
+              "mapField": "ft"
+          }
+       }
     },
-
-    "blocks": ["search-result-layout"]
+   "store.search#category": {
+      "blocks": ["search-result-layout"],
+      "props": {
+          "context": {
+              "skusFilter": "FIRST_AVAILABLE",
+              "simulationBehavior": "skip"
+          }
+       }
+    },
+    "store.search#brand": {
+      "blocks": ["search-result-layout"],
+      "props": {
+          "context": {
+              "skusFilter": "FIRST_AVAILABLE",
+              "simulationBehavior": "skip"
+          }
+       }
+    },
+    "store.search#department": {
+      "blocks": ["search-result-layout"],
+      "props": {
+          "context": {
+              "skusFilter": "FIRST_AVAILABLE",
+              "simulationBehavior": "skip"
+          }
+       }
+    },
+    "store.search#subcategory": {
+      "blocks": ["search-result-layout"],
+      "props": {
+          "context": {
+              "skusFilter": "FIRST_AVAILABLE",
+              "simulationBehavior": "skip"
+          }
+       }
     }
-  },
-
-  "search-result-layout": {
-    "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
-      "search-not-found-layout"
-    ]
-  },
-
-  "search-result-layout.desktop": {
-    "children": [
-      "breadcrumb.search",
-      "search-title.v2",
-      "total-products.v2",
-      "order-by.v2",
-      "search-fetch-previous",
-      "search-content",
-      "filter-navigator.v3",
-      "search-fetch-more"
-    ]
   }
-} 
-
-/*
-  "image#depbanner": {
-    "props": {
-      "src": "assets/electronicsbanner.png"
-      "preload": true //o banner não vai compitar com o restante da pagina, o banner carregara mais rapido
-
-      }
-    }*/

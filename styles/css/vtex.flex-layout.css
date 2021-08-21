@@ -1,0 +1,92 @@
+  .flexRowContent--main-header {
+    padding: 0 0.5rem;
+  }
+
+  .flexRowContent--main-header {
+    background: #212121;
+  }
+
+  .flexRowContent--main-header-mobile {
+    align-items: center;
+    padding: 0.625rem 0.5rem;
+    background-color: #212121;
+  }
+  
+  .flexRow--deals {
+    background-color: #a7afbd;
+    padding: 14px 0px;
+  }
+  
+  .flexRow--deals .stretchChildrenWidth {
+    align-items: center;
+  }
+  
+  .flexRow--deals .flexCol {
+    align-items: center;
+  }
+  
+  .flexCol--filterCol {
+    max-width: 500px;
+    min-width: 230px;
+  }
+  
+  .flexCol--productCountCol {
+    align-items: flex-start;
+  }
+  
+  .flexCol--orderByCol {
+    align-items: flex-end;
+  }
+  
+  .flexCol--orderByMobileCol {
+    width: 42%;
+  }
+  
+  .flexCol--filterMobileCol {
+    width: 38%;
+  }
+  
+  .flexRow--quickviewMainRow {
+    display: flex;
+    max-height: 100%;
+  }
+  
+  .flexRow--addToCartRow {
+    padding-bottom: 1rem;
+  }
+
+  .flexRow--productSpecificationGroupName {
+    background-color: #59ff00;
+    padding: 0.5rem 1rem;
+  }
+
+  .flexRow--footer-mobile {
+    position: fixed;
+    margin-top: 20px;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    z-index: 3;
+    background-color: #424242;
+}
+
+.flexRowContent--footer-mobile {
+    padding: 0;
+    padding-top: 15px;
+    justify-content: space-around;
+}
+
+.flexRow--rodape {
+    margin-top: 20px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    background-color: #424242;
+}
+
+.flexCol {
+  color: white;
+}
+
+  
