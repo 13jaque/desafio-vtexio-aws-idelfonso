@@ -1,7 +1,121 @@
+//conditicional layout 03-aula
 {
   "store.product": {
     "children": [
-      
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "condition-layout.product"
     ]
+  },
+//condition-layout
+  "condition-layout.product": {
+    "children": [
+      "condition.product#retro-mixer"
+    ]
+  },
+
+  "condition.product#retro-mixer": {
+    "props": {
+/*Conditions - vai passar pra ele uma serie de condições (array) dentro do array tem um objeto.
+  *A ideia é que você constroi uma frase.
+  *Primeiro parametro da frase é um "subject - qual dado quer usar para comparar (productid)".
+  *Segundo precisamos de um verb - qual é condição que quer que verifique, (is= é alguma coisa/ is-not=não é alguma coisa/ contains = verificar se o productid contem alguma coisa/ does-not-contain= productid não contem alguma coisa) e esse alguma coisa é object.
+  *Terceiro object - valor que vai ser usado para comparar.
+  *Productid is(é) 20 entao rederiza "children": ["image#retro-mixer-banner"]
+*/
+      "conditions": [
+
+        {
+          "subject": "productId",
+          "verb": "is",
+          "object": "20"
+        }
+      ]
+    },
+    "children": ["image#retro-mixer-banner"]
+  },
+
+  "image#retro-mixer-banner": {
+    "props": {
+      "src": "https://appliancetheme.vtexassets.com/assets/app/src/retroimage___92a8271aac7c51d2059193bdbe019016.jpg",
+      "width": "100%",
+      "height": "200px",
+      "blockClass": "cover"
+    }
+  },
+//  
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 20
+    },
+    "children": ["breadcrumb"]
+  },
+
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 9,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "product-main"
+    },
+    "children": ["product-images", "flex-layout.col#right-col"]
+  },
+
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true,
+      "thumbnailsOrientation": "vertical"
+    }
+  },
+  
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "product-name",
+      "product-identifier.product",
+      "product-price#product-details",
+      "flex-layout.row#qty-sku",
+      "shipping-simulator",
+      "flex-layout.row#buy-button",
+      "share#default"
+    ]
+  },
+
+  "flex-layout.row#qty-sku": {
+    "children": [
+      "sku-selector",
+      "product-quantity"
+    ]
+  },
+
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true,
+      "showListPrice": true
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["buy-button"]
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+        }
+      }
+    }
   }
-}
