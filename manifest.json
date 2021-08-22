@@ -10,9 +10,6 @@
     "react": "3.x"
   },
   "mustUpdateAt": "2021-08-17",
-  "scripts": {
-    "postreleasy": "vtex publish --verbose"
-  },
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",

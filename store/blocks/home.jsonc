@@ -15,6 +15,7 @@
 
   "tab-list": {
     "children": [
+      "tab-list.item#home",
       "tab-list.item#home1",
       "tab-list.item#home2",
       "tab-list.item#home3",
@@ -25,12 +26,20 @@
 
   "tab-content": {
     "children": [
+      "tab-content.item#home",
       "tab-content.item#home1",
       "tab-content.item#home2",
       "tab-content.item#home3",
       "tab-content.item#home4",
       "tab-content.item#home5"
       ]
+  },
+
+  "tab-list.item#home": {
+    "props": {
+      "tabId": "upmedal",
+      "label": "TODOS"
+    }
   },
 
   "tab-list.item#home1": {
@@ -65,6 +74,15 @@
     "props": {
       "tabId": "guerreiros",
       "label": "GUERREIROS"
+    }
+  },
+
+  "tab-content.item#home": {
+    "children": [
+      "search-result-layout.customQuery#home"
+    ],
+    "props": {
+      "tabId": "upmedal"
     }
   },
 

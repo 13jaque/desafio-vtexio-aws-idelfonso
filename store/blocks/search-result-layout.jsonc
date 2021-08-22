@@ -1,6 +1,6 @@
-//promoção
+//todos
 {
-  "search-result-layout.customQuery#home1": {
+  "search-result-layout.customQuery#home": {
     "props": {
       "querySchema": {
         "orderByField": "OrderByTopSaleDESC",
@@ -9,6 +9,26 @@
         "maxItemsDepartment": 2,
         "queryField": "UpMedal",
         "mapField": "ft"
+      },
+      "preventRouteChange": true
+    },
+    "blocks": [
+      "search-result-layout.desktop#home",
+      "search-result-layout.mobile#home",
+      "search-not-found-layout"
+    ]
+  },
+
+//promoção
+  "search-result-layout.customQuery#home1": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByTopSaleDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "maxItemsDepartment": 2,
+        "queryField": "promoção",
+        "mapField": "category-2"
       },
       "preventRouteChange": true
     },
@@ -63,8 +83,8 @@
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
         "maxItemsDepartment": 2,
-        "queryField": "upMedal",
-        "mapField": "ft"
+        "queryField": "signos",
+        "mapField": "category-2"
       },
       "preventRouteChange": true
     },
@@ -82,8 +102,8 @@
         "hideUnavailableItems": true,
         "maxItemsPerPage": 8,
         "maxItemsDepartment": 2,
-        "queryField": "UpMedal/guerreiros",
-        "mapField": "ft"
+        "queryField": "guerreiros",
+        "mapField": "category-2"
       },
       "preventRouteChange": true
     },

@@ -2,17 +2,10 @@
     "modal-trigger#quickview": {
       "children": [
         "icon-expand",
-        "rich-text#modal",
         "modal-layout#quickview"
       ],
       "props": {
         "blockClass": "quickview"
-      }
-    },
-
-    "rich-text#modal": {
-      "props": {
-        "text": "Click"
       }
     },
   
@@ -148,4 +141,3 @@
       }
     }
   }
-  

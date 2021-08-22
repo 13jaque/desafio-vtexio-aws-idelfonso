@@ -33,7 +33,7 @@
       "flex-layout.col#spacer",
       "search-bar#homedesk",
       "flex-layout.col#spacer",
-      "flex-layout.col#entrardesktop",
+      "login",
       "flex-layout.col#suportedesktop",
       "minicart.v2"
     ]
@@ -69,23 +69,6 @@
       "mobileWidth": 90,
       "mobileHeight": 32
 
-    }
-  },
-
-  "flex-layout.col#entrardesktop":{
-    "props":{
-      "horizontalAlign": "center"
-    },
-    "children":[
-        "image#login1"
-    ]
-  },
-  "image#login1": {
-    "props": {
-      "blockClass":"imglogin",
-      "width": 20,
-      "src": "assets/login.png",
-      "link": "/"
     }
   },
 
