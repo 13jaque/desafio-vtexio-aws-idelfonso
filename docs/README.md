@@ -1,3 +1,13 @@
+# Hiring Coders - Desafio 2 - VTEX.IO E AWS
+
+Projeto criando com a finalidade de reproduzir uma copia do site www.upmedal.com.br como desafio 3 da Hiring Coders, usando VTEX.IO
+
+# Tecnologias
+VTEXIO
+CSS
+React
+NodeJS
+
 # Minimum Boilerplate Theme
 
 The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
