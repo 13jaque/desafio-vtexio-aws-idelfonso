@@ -3,6 +3,7 @@
 Projeto criando com a finalidade de reproduzir uma copia do site www.upmedal.com.br como desafio 3 da Hiring Coders, usando VTEX.IO
 
 # Tecnologias
+
 VTEXIO
 CSS
 React
