@@ -1,13 +1,14 @@
-# Hiring Coders - Desafio 2 - VTEX.IO E AWS
+# Hiring Coders - Challenge 3 - VTEX.IO E AWS
 
-Projeto criando com a finalidade de reproduzir uma copia do site www.upmedal.com.br como desafio 3 da Hiring Coders, usando VTEX.IO
+Project created with the purpose of reproducing a copy of www.upmedal.com.br as challenge 3 from Hiring Coders, using VTEX.IO
 
-# Tecnologias
+# Technologies
 
-VTEXIO
-CSS
-React
-NodeJS
+1. VTEX.IO
+2. CSS
+3. React
+4. NodeJS
+
 
 # Minimum Boilerplate Theme
 
