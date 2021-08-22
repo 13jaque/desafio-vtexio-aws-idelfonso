@@ -9,6 +9,7 @@ Project created with the purpose of reproducing a copy of www.upmedal.com.br as 
 3. React
 4. NodeJS
 
+Projeto gerado a partir do vtex-apps / minimum-boilerplate-theme
 
 # Minimum Boilerplate Theme
 
