@@ -1,4 +1,4 @@
-# Hiring Coders - Challenge 3 - VTEX.IO E AWS
+# Hiring Coders - Challenge 3 - VTEX.IO and AWS
 
 Project created with the purpose of reproducing a copy of www.upmedal.com.br as challenge 3 from Hiring Coders, using VTEX.IO
 
