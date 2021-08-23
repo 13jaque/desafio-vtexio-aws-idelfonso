@@ -2,6 +2,21 @@
     background: #303030;
 }
 
+.logoContainer {
+    margin-left: -55px;
+    margin-top: 35px;
+    position: absolute;
+}
+
+.logoImage {
+    margin-top: -60px;
+    position: absolute;
+}
+
+.searchBarContainer {
+    margin-left: 110px;
+}
+
 .searchBarInnerContainer--searchbar1 {
     width: 650px;
 }
@@ -14,6 +29,7 @@
     border: none;
     border-radius: 0;
     border-bottom: 2px solid #59ff00;
+
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
@@ -34,3 +50,5 @@
 .productBrand {
     color: white;
 }
+
+

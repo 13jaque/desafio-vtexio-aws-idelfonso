@@ -66,6 +66,7 @@
       "url": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/upmedal.png",
       "width": 132,
       "height": 32,
+      "blockClass":"logodesk",
       "mobileWidth": 90,
       "mobileHeight": 32
 

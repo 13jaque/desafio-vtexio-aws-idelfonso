@@ -20,6 +20,10 @@
     background-color: #212121;
 }
 
+.contentContainer {
+  background-color: #303030;
+}
+
   .listItemActive :global(.vtex-button){
     background-color: #212121;
 }

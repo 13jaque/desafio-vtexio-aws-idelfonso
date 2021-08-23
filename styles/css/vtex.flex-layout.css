@@ -73,6 +73,7 @@
 .flexRowContent--footer-mobile {
     padding: 0;
     padding-top: 15px;
+    margin-left: -25px;
     justify-content: space-around;
 }
 
