@@ -52,7 +52,9 @@
 }
 
 .carouselContainer {
-    margin-left: -20px;
+    margin-left: -5px;
 }
 
-
+.imageElementLink{
+    margin-left: 19px;
+}

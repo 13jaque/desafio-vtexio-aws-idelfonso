@@ -71,7 +71,7 @@
 }
 
 .flexRowContent--footer-mobile {
-    padding: 0;
+    padding: 2;
     padding-top: 15px;
     margin-left: -25px;
     justify-content: space-around;
@@ -88,9 +88,12 @@
 
 .flexCol {
   color: white;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
+.stretchChildrenWidth {
+  margin-left: -28px;
+}
 
 
   

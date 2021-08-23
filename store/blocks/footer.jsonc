@@ -70,6 +70,7 @@
   },
   "rich-text#login2": {
     "props": {
+      "blockClass":"login2",
       "text": "ENTRAR",
       "textPosition": "CENTER",
       "font": "mini"
@@ -93,6 +94,7 @@
   },
   "rich-text#desafios2": {
     "props": {
+      "blockClass":"desafios2",
       "text": "DESAFIOS",
       "textPosition": "CENTER",
       "font": "mini"
@@ -116,6 +118,7 @@
   },
   "rich-text#loja2": {
     "props": {
+      "blockClass":"loja2",
       "text": "LOJA",
       "textPosition": "CENTER",
       "font": "mini"
